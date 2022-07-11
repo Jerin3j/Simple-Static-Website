@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.j-img{
+    zoom:9%;
+    border: 5px solid white;
+    border: 3px solid black;
+
+}
+.text{ 
+  font-family: 'Inter', sans-serif;
+  font-size: 90px;
+  text-transform: uppercase;
+  color:#001920
+}
+.contact{
+  margin-top:15em;
+  font-family: 'Maven Pro', sans-serif;
+
+}
+.icon-padding{
+  margin-left: 5px;
+}
