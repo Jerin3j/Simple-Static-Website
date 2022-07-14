@@ -21,3 +21,8 @@ body{
 .icon-padding{
   margin-left: 5px;
 }
+.icon-col{
+  color: rgb(73, 71, 71) ;
+   font-size: 30px; 
+  margin-left: 17px;
+}
