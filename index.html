@@ -20,11 +20,9 @@
 <body style="scroll-behavior: smooth; background-color: #B8EDFF;" id="bdy">
                    
   
- <nav class="navbar navbar-expand-lg navbar-light hedr ">
-   <div class="row">
-     <div class="col-md-6">
-    <button id="navColor" class="navbar-toggler btn " style="border: 2px solid " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
-      <span id="nav" class="navbar-toggler-icon" ></span>
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top " >
+    <button id="navColor" class="navbar-toggler btn" style="border: 2px solid " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
+      <span id="nav" class="navbar-toggler-icon " ></span>
     </button>
       
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -35,7 +33,7 @@
           </a>
         </li>
 
-        <li class="nav-item" id="navColor">
+        <li class="nav-item pointer" id="navColor">
           <a class="nav-link" href="https://github.com/jerin3j" target="_blank" >
             <i id="navColor2" style="color:#0a2d38; font-size: 30px; margin-left: 17px;" class="fa-brands fa-github" data-toggle="tooltip" title="Check My Github" data-placement="right"></i>
           </a>
@@ -62,20 +60,19 @@
         </li>
       </ul>
   </div> 
-</div>
-</div>
 </nav>
 
-<div class="conainer " >
-  <div class="row ">
-    <div class="col-md" style="text-align:right; margin-top:-30px ">
-  <nav >
-    <i class="fa-solid fa-moon " style="font-size: 35px;margin:6px; " onclick="darkBtn()" id="darkbtn"></i>
+<div class="container fluid " >
+  <div class="row fixed-top" style="margin-top:3em">
+    <div class="col-md mr-2 " style="text-align:right; margin-top:-30px; ">
+
+    <i class="fa-solid fa-moon pointer" style="font-size: 35px;margin:6px; " onclick="darkBtn()" id="darkbtn"></i>
   </div>
 </div>
 </div>
 
-     <section class="text-center " style="margin-top: 10em; ">
+     <section class="text-center " style="margin-top: 12em; ">
+      <div class="container">
         <div class="row ">
           <div class="col-md">
             <img src="https://scontent.fblr14-1.fna.fbcdn.net/v/t39.30808-6/291956943_1651032305272716_5749134148299177017_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oIunO4AzOgwAX_hWDuV&tn=genVKADf6XB6ZqIs&_nc_ht=scontent.fblr14-1.fna&oh=00_AT_hQjjcOR7wKpMOL_Fwul9diW4ulVy3mZD7iDZlZG-vHg&oe=62D0947E" alt="Jerin"
@@ -85,9 +82,9 @@
             <p style="font-family: 'Maven Pro', sans-serif;">web designer | editor </p>
           </div>
         </div>
+        </div>
       </section>
        <section class="text-center ml-auto"  style="margin-top: 1em;" >
-        <div class="row">
           <div class="col-md">
             <h5 class="contact ">Contact me,</h5>
              <div class="col md-4 mt-3">
@@ -135,6 +132,9 @@
         document.getElementById("navColor6").style.color="#F2F2F3"
 
  }
+       $('#bdy').click(function(){
+       $(".navbar-collapse").collapse('hide');
+});
   </script>
 </body>
 </html>

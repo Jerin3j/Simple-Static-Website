@@ -3,10 +3,13 @@ body{
 }
 .j-img{
     zoom:9%;
-    border: 5px solid white;
-    border: 3px solid black;
-
-}
+    border: solid 0.3em transparent;
+    border-radius: 200px;
+    background-image: linear-gradient(white, white), 
+    linear-gradient(to left, rgb(148, 119, 153), rgb(180, 161, 151));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
 .text{ 
   font-family: 'Inter', sans-serif;
   font-size: 90px;
@@ -25,4 +28,7 @@ body{
   color: rgb(73, 71, 71) ;
    font-size: 30px; 
   margin-left: 17px;
+}
+.pointer{
+  cursor: pointer;
 }
