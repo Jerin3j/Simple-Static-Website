@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .j-img{
-    zoom:9%;
+    zoom:30%;
     border: solid 0.3em transparent;
     border-radius: 200px;
     background-image: linear-gradient(white, white), 
