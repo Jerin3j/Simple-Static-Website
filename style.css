@@ -12,9 +12,9 @@ body{
   }
 .text{ 
   font-family: 'Inter', sans-serif;
-  font-size: 90px;
+  font-size: 85px;
   text-transform: uppercase;
-  color:#001920
+  color:#001920;
 }
 .contact{
   margin-top:15em;
