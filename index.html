@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&family=Inter:wght@800&display=swap" rel="stylesheet">
 </head>
-<body style="scroll-behavior: smooth; background-color: #B8EDFF;" id="bdy">
-                   
+<body style="scroll-behavior: smooth;" class="gradient-color" id="bdy">
+  
   
  <nav class="navbar navbar-expand-lg navbar-light fixed-top m-1" >
     <button id="navColor" class="navbar-toggler btn" style="border: 2px solid " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
@@ -98,7 +98,7 @@
       </section> 
       <footer>
         <p class="text-center b-0 no-copy">
-          © 2022
+          &copy 2022
         </p>
       </footer>
       
@@ -164,7 +164,7 @@
        $(".navbar-collapse").collapse('hide'); //Click navbar in mobiles then closes automatically in bodey where touch
 });
        $("#bdy").dblclick(function(){
-          $(this).addClass('bodyy');       //Double click bg change
+          $(this).addClass('body-color-change');       //Double click bg change
           $("#darkbtn").css("display", "none") 
        });
        $(function() {
