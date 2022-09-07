@@ -84,6 +84,7 @@
           </div>
         </div>
         </div>
+        <img src="media/onam.png" class="opacity">
       </section>
        <section class="text-center ml-auto"  style="margin-bottom: 6em;" >
           <div class="col-md" style="margin-bottom: 8em;">
@@ -125,10 +126,11 @@
         var pg= document.getElementById("bdy");
         var navColor=document.getElementById("navColor");
         var textColor=document.getElementById("textColor");
-        pg.style.backgroundColor="#001920"
+        pg.classList.remove("gradient-color");
+        pg.classList.add("dark-clr")
         pg.style.color="#F3F2F3"
         textColor.style.color="#F2F2F3"
-        document.getElementById("darkbtn").style.color="#001920"
+        document.getElementById("darkbtn").style.visibility="hidden"
         document.getElementById("navColor").style.color="#F2F2F3"
         document.getElementById("navColor1").style.color="#F2F2F3"
         document.getElementById("navColor2").style.color="#F2F2F3"
@@ -136,7 +138,7 @@
         document.getElementById("navColor4").style.color="#F2F2F3"
         document.getElementById("navColor5").style.color="#F2F2F3"
         document.getElementById("navColor6").style.color="#F2F2F3"
-        document.getElementById("sunbtn").style.display="inline"
+        $("#sunbtn").show()
 
  }
     //After click dark button Sun btn will appear jerin's code
@@ -144,10 +146,11 @@
         var pg= document.getElementById("bdy");
         var navColor=document.getElementById("navColor");
         var textColor=document.getElementById("textColor");
-        pg.style.backgroundColor="#B8EDFF"
+        pg.classList.remove("dark-clr");
+        pg.classList.add("gradient-color")
         pg.style.color="#001920"
         textColor.style.color="#001920"                                   /*LATER ANYTHING ADD USE addeventlistener()*/
-        document.getElementById("darkbtn").style.color="#001920"
+        document.getElementById("darkbtn").style.visibility="visible"
         document.getElementById("navColor").style.color="#001920"
         document.getElementById("navColor1").style.color="#001920"
         document.getElementById("navColor2").style.color="#001920"
@@ -156,7 +159,6 @@
         document.getElementById("navColor5").style.color="#001920"
         document.getElementById("navColor6").style.color="#001920"
         document.getElementById("sunbtn").style.display="none"
-       document.getElementById("darkbtn").style.color="#1B2430"
 
  }
       
