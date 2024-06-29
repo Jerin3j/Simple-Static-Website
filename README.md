@@ -1,6 +1,6 @@
 
 
 ##### Site available on.
-https://www.jerinjeromejustin.ml/
+https://jerin3j.github.io/Simple-Static-Website/
 
 ###### Thank you ❤️
